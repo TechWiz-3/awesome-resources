@@ -13,7 +13,7 @@ jobs:
         uses: TechWiz-3/linksafe@fast
         with: # comma seperated lists
           whitelist_files: "CONTRIBUTING.md"
-       env:
-            TOKEN: ${{ secrets.TOKEN }}
+        env: 
+          TOKEN: ${{ secrets.TOKEN }}
           
 
